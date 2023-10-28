@@ -11,23 +11,14 @@ body, html {
 
 body {
 
-	background: url(./img/nen.png);
+	background: url(./img/nen.png) no-repeat center center fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
-	
-	
 }
 img {
  margin-top: 10px;
  width: 120px;
  height: 120px;
 margin-left: 10px;
-}
-header >h2{
-	color: white;
-	display: flex;
-	margin-top: auto;
-
 }
 header {
 	margin-top: 1em;
@@ -41,7 +32,7 @@ header > img {
 	height: 9em;
 	border-radius: 100%;
 	border: 2px solid #fff;
-	box-shadow: blue 0px 2px 8px 0px; 
+	box-shadow: greenyellow 0px 2px 8px 0px; 
 }
 header > h1 {
 	display: inline-block;
@@ -90,12 +81,14 @@ ul {
 	text-align: center;
 	padding: auto;
 }
-.cuoi{
-	text-align:  center;
-	font-size:larger;
-	padding: auto;
-	justify-content: center;
-	margin-top: -3em;
-	color: white;
-}
+p {
 
+	text-align: center;
+	color: #fff;
+}
+.cuoi {
+
+	margin-top:5px ;
+	text-align: center;
+	color: #fff;
+}
