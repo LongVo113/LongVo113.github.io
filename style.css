@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-	background: url(./img/nen.png) no-repeat center center fixed;
+	background: url(./img/backgr.jpg) no-repeat center center fixed;
 	background-size: cover;
 	background-position: center;
 }
